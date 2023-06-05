@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 100px;
+    position: relative;
+    z-index: 2;
+    transition: opacity 0.5s ease-in-out;
+ }
+ .container_logo {
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.container_img {
+    height: 350px;
+    width: auto;
+}
+
+.container_contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_telefono {
+    display: flex;
+}
+
+/* Estilos del Header */
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    z-index: 2;
+
+}
+
+.header.abajo {
+    background-color: #ffffff;
+    top: 0;
+    transition: 0.5s ease, top 0.9s ease;
+}
+
+.menu {
+    padding: 10px;
+}
+
+.menu_lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0 90px;
+    font-weight: bold;
+}
+
+.menu_items,
+.menu_items-dropdown {
+    position: relative;
+}
+
+.menu_items-dropdown .menu_lista-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 10px;
+
+}
+
+.menu_link {
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu_lista-dropdown:hover {
+    display: none;
+}
+
+.menu_items-dropdown {
+    display: block;
+    padding: 10px;
+}
+
+.menu_items-dropdown:hover>.menu_lista-dropdown {
+    display: block;
+    background-color: #ffffff;
+}
+
+.menu_items-dropdown:hover>.menu_link:last-child {
+    color: hsl(298, 80%, 74%);
+}

@@ -1,0 +1,38 @@
+.sobre {
+    margin-top: 340px;
+    text-align: center;
+    width: 100%;
+    background-color: beige;
+}
+
+.cartas {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.carta {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.carta:hover {
+    cursor: pointer;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: 200px;
+    width: 100%;
+}
+
+.carta img {
+    width: 100%;
+    height: auto;
+}

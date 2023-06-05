@@ -1,0 +1,14 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
