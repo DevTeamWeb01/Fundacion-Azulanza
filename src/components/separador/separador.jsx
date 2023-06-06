@@ -5,7 +5,7 @@ const Separador = () => {
         <div className="separador">
           <div className="separador_linea"></div>
           <div className="separador_icono">
-              <box-icon name='heart' type='solid' color='#fb0004' ></box-icon>
+            <box-icon name='donate-heart' type='solid' color='#eb00f3' size="40px"></box-icon>
           </div>
           <div className="separador_linea"></div>
         </div>

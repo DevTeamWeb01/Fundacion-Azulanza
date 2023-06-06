@@ -1,19 +1,17 @@
-.separador{
+.separador {
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    justify-content: center;
     height: 100px;
-    width: 600px;
-    align-items: center;
-    align-content: center;
-    margin: 20px;
-}
+    width: 50%;
+    margin: 0 auto;
+  }
 
-.separador_linea{
+  .separador_linea {
     height: 200px;
     flex-grow: 1;
     height: 1px;
-    background-color: #fb00ae;
+    background-color: #eb00f3;
     margin-left: 10px;
     margin-right: 10px;
-}
+  }

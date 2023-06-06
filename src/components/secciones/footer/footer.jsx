@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
 
           <div className='footer_derechos'>
-              <p>Fundación Azulanza ® Todos los Derechos Reservados. 2023 Somos una fundación Diseñado y Desarrollado por: DevTeamWeb ®</p>
+              <p>Todos los Derechos Reservados. Diseñado y Desarrollado por: DevTeamWeb ®</p>
           </div>
       </div>
     )
