@@ -47,10 +47,10 @@ const Header = () =>{
                         <Link className='menu_link' to="/nosotros">Visión y Misión</Link>
                     </li>
                     <li className="menu_items-dropdown">
-                        <Link className='menu_link' to="/">Miembros</Link>
+                        <Link className='menu_link' to="">Miembros</Link>
                     </li>
                     <li className="menu_items-dropdown">
-                        <Link className='menu_link' to="/">Alianzas</Link>
+                        <Link className='menu_link' to="">Alianzas</Link>
                     </li>
                     </ul>
                 </li>
@@ -93,7 +93,7 @@ const Header = () =>{
                     <Link className="menu_link" to="/">Apoya</Link>
                 </li>
                 <li className="menu_items">
-                    <Link className="menu_link" to="/">Contacto</Link>
+                    <Link className="menu_link" to="/contacto">Contacto</Link>
                 </li>
                 </ul>
             </nav>
